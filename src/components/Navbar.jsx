@@ -24,7 +24,7 @@ const Navbar = () => {
   return (
     <>
       <header className="header">
-        <a href='#' className='logo'>
+        <a href='/' className='logo'>
           <img src={logo}  alt='Logo-Image'/>
         </a>
         <nav className='navbar' ref={navbarRef}>
@@ -56,7 +56,7 @@ const Navbar = () => {
               </div>
             </div>
           ))}
-          <a className='btn' href='#'></a>
+          {/* <a  className='btn' href='/' ></a> */}
         </div>
       </header>
     </>

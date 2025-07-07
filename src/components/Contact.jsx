@@ -8,7 +8,7 @@ const Contact = () => {
           Contact <span>Us</span>
         </h1>
         <div className='row'>
-          <iframe className='map' src='https://www.google.com/maps/@33.1276138,71.0973058,12z?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D'></iframe>
+          <iframe className='map' title='Frame' src='https://www.google.com/maps/@33.1276138,71.0973058,12z?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D'></iframe>
           <form>
             <h3>get in touch</h3>
             <div className='inputBox'>

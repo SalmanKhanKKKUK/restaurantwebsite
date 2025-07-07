@@ -30,6 +30,7 @@ const About = () => {
               href="https://tandoorirestaurants.pk/about-us/"
               target="_blank"
               className="btn"
+              rel="noreferrer"
             >
               Read More...
             </a>
