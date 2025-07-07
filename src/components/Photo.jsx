@@ -43,7 +43,7 @@ const Photo = () => {
             menu.map((item, index) => (
               <div className='box' key={index}>
                 {/* Dynamic image */}
-                <img src={item.img} alt={item.name} />
+                <img src={item.img} alt='item_image' />
                 
                 {/* Dynamic title */}
                 <h3>{item.name}</h3>

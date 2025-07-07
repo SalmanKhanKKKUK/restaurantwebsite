@@ -18,8 +18,8 @@ const App = () => {
       <Photo />
       <Product />
       <Review />
-      <Contact />
       <Blog />
+      <Contact />
       <Footer />
     </>
   )

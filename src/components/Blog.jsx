@@ -12,7 +12,7 @@ const Blog = () => {
             blog.map((item, index) => (
               <div className='box' key={index}>
                 <div className='image'>
-                  <img src={item.img} />
+                  <img src={item.img}  alt='item-Image'/>
                 </div>
                 <div className='content'>
                   <a href='#' className='title'>
